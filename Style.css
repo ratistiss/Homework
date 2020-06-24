@@ -64,7 +64,6 @@ video{
 .nav #buttons{
     display: flex;
     justify-content: space-around;
-
 }
 
 #buttons li {
@@ -90,4 +89,52 @@ video{
     color: #2a1de4;
     background-color: yellow;
     border-radius: 8px;
+}
+
+h2{
+    font-size: 4em;
+    text-align: center;
+
+}
+
+.form {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: #FEF5E7;
+	border-radius: 4px;
+}
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+input[type=text],input[type=email],  textarea {
+    background-color: #fcfaf5;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(228, 202, 202);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.button2 {
+	background: steelblue;
+	margin: 0 auto;
+	outline: 0;
+	color: slategray;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 50%;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.button2:hover{
+    background-color: wheat;
 }
